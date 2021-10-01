@@ -1,4 +1,4 @@
-py -m pip install numpy
-py -m pip install pandas
-py -m pip install nltk
-py -m pip install sklearn
+pip install numpy
+pip install pandas
+pip install nltk
+pip install sklearn
