@@ -17,7 +17,7 @@ from nltk.corpus import stopwords
 
 # NLP MODEL
 
-df = pd.read_csv('https://github.com/ROCKET19/Spam_Classifier_Web_Application/blob/main/spam.csv', encoding='latin1')
+df = pd.read_csv('https://docs.google.com/spreadsheets/d/1h20jiCScTTrfSxhOwM5vJrP9vXamUu3cSQlmtKEY6VI/edit?usp=sharing', encoding='latin1')
 df = df.drop(['Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4'], axis=1)
 df.rename(columns={'v1': 'labels', 'v2': 'message'}, inplace=True)
 df.drop_duplicates(inplace=True)
